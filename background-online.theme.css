@@ -5084,3 +5084,7 @@ background-color: #1f3dff
 .viewFullBioColor_f5f93a {
     color: white;
 }
+.layers__160d8 {
+  background-color: rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(6px);
+}
