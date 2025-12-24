@@ -1,20 +1,3 @@
-/* === GLOBAL BACKGROUND FIX === */
-html,
-body,
-#app-mount,
-.appMount__160d8,
-.layers__160d8 {
-  background-image: url("https://images8.alphacoders.com/767/767470.jpg") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
-}
-
-/* force transparency */
-#app-mount * {
-  background-color: transparent !important;
-}
 
 
 .container_fb64c9 /* Missing Create Thread Layer */{
