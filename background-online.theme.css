@@ -1,4 +1,8 @@
-/* === GLOBAL BACKGROUND (FIXED) === */
+/* === GLOBAL BACKGROUND (WORKING FIX) === */
+#app-mount {
+  position: relative;
+}
+
 #app-mount::before {
   content: "";
   position: fixed;
@@ -7,8 +11,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  z-index: -1;
+  z-index: 0;
+  pointer-events: none;
 }
 
 
@@ -5085,6 +5089,9 @@ background-color: #1f3dff
     color: white;
 }
 .layers__160d8 {
+  position: relative;
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0.55) !important;
   backdrop-filter: blur(6px);
 }
+
